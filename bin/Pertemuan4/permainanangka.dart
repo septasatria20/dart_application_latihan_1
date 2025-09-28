@@ -5,8 +5,8 @@ void main() {
   // 1. Persiapan
   // Membuat generator angka acak.
   var random = Random();
-  // Menghasilkan angka acak antara 1 s.d. 100.
-  int angkaRahasia = random.nextInt(100) + 1;
+  // Menghasilkan angka acak antara 1 s.d. 50.
+  int angkaRahasia = random.nextInt(50) + 1;
   int tebakanPengguna;
   int jumlahTebakan = 0;
   bool tebakanBenar = false;
