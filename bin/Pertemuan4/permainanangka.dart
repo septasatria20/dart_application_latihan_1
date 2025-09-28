@@ -26,7 +26,7 @@ void main() {
     // Cek apakah input valid (bukan teks atau kosong).
     if (input == null || int.tryParse(input) == null) {
       print('Input tidak valid! Silakan masukkan angka.');
-      continue; // Lanjutkan ke iterasi berikutnya.
+      continue;
     }
 
     tebakanPengguna = int.parse(input);
