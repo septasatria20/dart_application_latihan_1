@@ -12,7 +12,7 @@ void main() {
   bool tebakanBenar = false;
 
   print('--- Selamat Datang di Game Tebak Angka! ---');
-  print('Saya telah memilih sebuah angka antara 1 dan 100. Coba tebak!');
+  print('Saya telah memilih sebuah angka antara 1 dan 50. Coba tebak!');
 
   // 2. Perulangan (Looping)
   // Gunakan loop do-while agar program setidaknya berjalan satu kali.
